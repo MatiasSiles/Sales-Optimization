@@ -17,7 +17,7 @@ Transaction Identifiers
 order_id (string): Unique identifier for each sales transaction. Format: ORD_YYYYMMDD_XXXX
 date (datetime): Date when the transaction occurred
 
-Customer Information
+Customer Information:
 
 customer_id (string): Unique customer identifier
 customer_age (integer): Customer's age in years (18-80)
@@ -31,7 +31,7 @@ Enterprise: B2B customers with bulk purchases
 
 
 
-Product Information
+Product Information:
 
 product_category (string): Main product classification
 
@@ -47,7 +47,7 @@ Toys & Games: Children's toys, board games, video games
 
 product_name (string): Specific product name/model
 
-Financial Data
+Financial Data:
 
 unit_price (float): Price per individual item in USD
 quantity (integer): Number of items purchased in the transaction
@@ -59,7 +59,7 @@ tax_amount (float): Tax amount in USD
 shipping_cost (float): Shipping and handling charges
 total_amount (float): Final transaction amount (subtotal - discount + tax + shipping)
 
-Sales & Marketing
+Sales & Marketing:
 
 sales_channel (string): Channel through which the sale was made
 
@@ -91,7 +91,7 @@ Organic Search, Paid Search, Social Media, Email, Referral, Direct, Advertisemen
 
 
 
-Customer Experience
+Customer Experience:
 
 is_returned (boolean): Whether the item was returned (True/False)
 return_reason (string): Reason for return if applicable
@@ -101,7 +101,7 @@ Defective, Wrong Item, Not as Described, Changed Mind, Damaged in Shipping
 
 satisfaction_score (integer): Customer satisfaction rating (1-10 scale). Note: Contains missing values
 
-Derived Fields
+Derived Fields:
 
 year (integer): Year extracted from transaction date
 month (integer): Month extracted from transaction date (1-12)
